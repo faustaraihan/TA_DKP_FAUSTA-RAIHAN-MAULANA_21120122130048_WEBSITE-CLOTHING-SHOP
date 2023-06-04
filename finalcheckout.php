@@ -29,7 +29,6 @@ class FormBox {
 
 class NotaPemesanan extends FormBox {
     protected $notaFilePath;
-    protected $whatsappUrl;
     
     public function __construct($name, $address, $paymentMethod, $totalPrice, $notaFilePath) {
         parent::__construct($name, $address, $paymentMethod, $totalPrice);
